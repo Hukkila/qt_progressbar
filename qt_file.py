@@ -57,7 +57,7 @@ class MyDialog(QDialog):
                     time_value = item_data[2]  # Third value in the list (time in ms)
                     self.timer_interval = int(time_value / self.target_percent)  # Convert to integer
                 else:
-                    self.timer_interval = 100  # Default to 1 second if no time is specified
+                    self.timer_interval = 1000  # Default to 1 second if no time is specified
                 self.timer.start(self.timer_interval)
             else:
                 self.timer.stop()

@@ -10,13 +10,3 @@ class DataMaker:
     
 
 
-class main_class():
-    def __init__(self):
-        pass
-
-    def main_driver():
-        pass
-    #kör function
-    #Kör loader
-    #kör function
-    #kör loader
